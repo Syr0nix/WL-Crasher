@@ -1,0 +1,17 @@
+while true do
+		for i = 0,1,(1/60)do
+			game.ReplicatedStorage:FindFirstChild('MasterKey'):FireServer('Age','Adult')
+			game.ReplicatedStorage:FindFirstChild('MasterKey'):FireServer('Age','Pup')
+			game.ReplicatedStorage:FindFirstChild('MasterKey'):FireServer('Age','Newborn')
+			game.ReplicatedStorage:FindFirstChild('MasterKey'):FireServer('Age','Adult')
+			game.ReplicatedStorage:FindFirstChild('MasterKey'):FireServer('Age','Pup')
+			game.ReplicatedStorage:FindFirstChild('MasterKey'):FireServer('Age','Newborn')
+			game.ReplicatedStorage:FindFirstChild('MasterKey'):FireServer('Age','Adult')
+			game.ReplicatedStorage:FindFirstChild('MasterKey'):FireServer('Age','Pup')
+			game.ReplicatedStorage:FindFirstChild('MasterKey'):FireServer('Age','Newborn')
+			game.ReplicatedStorage:FindFirstChild('MasterKey'):FireServer('Age','Adult')
+			game.ReplicatedStorage:FindFirstChild('MasterKey'):FireServer('Age','Pup')
+			game.ReplicatedStorage:FindFirstChild('MasterKey'):FireServer('Age','Newborn')
+		end
+		task.wait()
+	end
